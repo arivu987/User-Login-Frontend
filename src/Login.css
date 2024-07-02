@@ -1,0 +1,58 @@
+/* Login.css */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.btnSubmit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnSubmit:hover {
+    background-color: #45a049;
+}
+
+.errorContainer {
+    background-color: red;
+}
+
+.alert {
+    color: white;
+}
